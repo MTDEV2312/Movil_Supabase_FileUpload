@@ -1,0 +1,26 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Subir y Guardar Archivos</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <ion-label>1. Selecciona un archivo:</ion-label>
+  <input type="file" (change)="onFileSelectedChange($event)" accept="*/*" />
+
+  <div *ngIf="selectedFile" style="margin-top: 10px;">
+    <p>Archivo seleccionado: {{ selectedFile.name }}</p>
+  </div>
+
+  <ion-button expand="block" (click)="uploadSelectedFile()" [disabled]="!selectedFile" style="margin-top: 20px;">
+    2. Subir Archivo Seleccionado
+  </ion-button>
+
+  <div *ngIf="uploadedFileUrl" style="margin-top: 10px;">
+    <p>Archivo subido: <a [href]="uploadedFileUrl" target="_blank">Ver archivo</a></p>
+  </div>
+
+  <ion-button expand="block" color="secondary" (click)="saveUploadedFileInfo()" [disabled]="!uploadedFileUrl" style="margin-top: 10px;">
+    3. Guardar Información del Archivo
+  </ion-button>
+</ion-content>
