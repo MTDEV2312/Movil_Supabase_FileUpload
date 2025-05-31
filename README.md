@@ -112,13 +112,16 @@ ionic serve
 ## Capturas de Pantalla
 
 <!-- Deja espacio aquí para añadir capturas de pantalla de la aplicación en funcionamiento -->
-<!-- Ejemplo:
+
 ### Página de Autenticación
-![Página de Autenticación](ruta/a/tu/captura_autenticacion.png)
+![Página de Autenticación](https://github.com/user-attachments/assets/96040345-4fd4-4fe4-88ed-80365f04f8d2)
+
 
 ### Página de Subida de Archivos
-![Página de Subida de Archivos](ruta/a/tu/captura_subida.png)
+![Página de Subida de Archivos](https://github.com/user-attachments/assets/ee30e1d4-f646-44aa-ab13-03f60291d4a3)
+
 
 ### Archivo Subido
-![Archivo Subido](ruta/a/tu/captura_archivo_subido.png)
--->
+![Archivo Subido](https://github.com/user-attachments/assets/5c877864-97db-43cb-8acc-433ac1c80104)
+
+
